@@ -7,7 +7,8 @@ import Item5 from "../../../../resources/img/main_slide_05.png";
 
 export const SlideStlye = {
   SliderView:styled.div`
-    padding-top:8rem;
+    /* padding-top:8rem; */
+    transform: translateY(8rem);
     .items {height:50rem; 
       > div {height:50rem;
         .tit {margin-top:10rem; font-size:4rem; font-weight:900; color:#000000;}

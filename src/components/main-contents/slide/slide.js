@@ -42,10 +42,10 @@ const MainSlide = () => {
         maxWidth: "117rem",
         width: "117rem",
         height: "6rem",
-        top: "-7rem",
+        top: "-6rem",
         margin: "0 auto",
         background: "none",
-        padding: "1rem"
+        // padding: "1rem"
       }}
     >
       <ul 
