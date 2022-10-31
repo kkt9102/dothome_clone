@@ -7,6 +7,9 @@ const Footer = () => {
       <div className="con">
         <LinkList/>
       </div>
+      <div className="footer_bottom">
+        <div className="con"></div>
+      </div>
     </FooterSection.FooterFrame>
   )
 }
