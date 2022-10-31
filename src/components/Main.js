@@ -4,6 +4,8 @@ import Header from "./include/view/Header";
 import SlideSection from "./main-contents/slide/view/SliderSection";
 import Login from "./main-contents/login/view/Login";
 import SearchContent from "./main-contents/search-section/view/SearchContent";
+import Customer from "./main-contents/customer/view/Customer";
+import Footer from "./include/view/Footer";
 
 const Main = () => {
   return(
@@ -16,6 +18,8 @@ const Main = () => {
           <SearchContent/>
         </div>
       </div>
+      <Customer/>
+      <Footer/>
     </MainSection.MainFrame>
   )
 }
