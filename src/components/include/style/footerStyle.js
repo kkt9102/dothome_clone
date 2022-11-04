@@ -58,7 +58,7 @@ export const FooterSection = {
         }
       }
       .copyright {padding-bottom:2rem;
-        copyright {margin-right:10%; letter-spacing:-0.12rem;}
+        p {margin-right:10%; letter-spacing:-0.12rem;}
         .w_logo_section {
           img:first-child {margin-right:0.5rem;}
         }

@@ -17,8 +17,8 @@ export const HeaderSection = {
           
         }
         :not(.logo_sc) {
-          ::before {content:""; position:absolute; width: 0%; height:0.4rem; top:calc(100% - 0.4rem); left:50%; background:#0070c0; opacity:0; transition:opacity 0.1s, width 0.1s 0.1s;}
-          ::after {content:""; position:absolute; width: 0%; height:0.4rem; top:calc(100% - 0.4rem); right:50%; background:#0070c0; opacity:0; transition:opacity 0.1s, width 0.1s 0.1s;}
+          ::before {content:""; position:absolute; width: 0%; height:0.4rem; top:calc(100% - 0.4rem); left:50%; background:#0070c0; opacity:0; transition:opacity 0.2s 0.1s, width 0.1s 0.1s;}
+          ::after {content:""; position:absolute; width: 0%; height:0.4rem; top:calc(100% - 0.4rem); right:50%; background:#0070c0; opacity:0; transition:opacity 0.2s 0.1s, width 0.1s 0.1s;}
         }
         :first-child {padding-right:0.5rem; margin-left:0rem;}
       }

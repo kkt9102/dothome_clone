@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="con copyright flex">
-            <copyright>Copyright ⓒ 2002 - 2022 Anysecure Co., Ltd, All Rights Reserved. <span className="cursor_p">	&#91; 사업자정보확인 &#93;</span></copyright>
+            <p>Copyright ⓒ 2002 - 2022 Anysecure Co., Ltd, All Rights Reserved. <span className="cursor_p">	&#91; 사업자정보확인 &#93;</span></p>
             <div className="w_logo_section">
               <img src={footer_logo_1} alt=""/>
               <img src={footer_logo_2} alt=""/>
