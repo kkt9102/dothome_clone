@@ -9,9 +9,10 @@ export const FooterSection = {
         > li {flex-basis:calc(100%/4); margin-bottom:1.8rem;
           > p {margin-bottom:2rem; font-weight:600; color:#333333;}
           > ul > li {cursor:pointer;
-            > span {font-size:1.4rem; font-weight:500;
-              :hover {text-decoration:underline;}
+            :hover {
+              > span {text-decoration:underline;}
             }
+            > span {font-size:1.4rem; font-weight:500;}
           }
         }
       }
