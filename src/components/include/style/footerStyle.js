@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterSection = {
   FooterFrame:styled.div`
     background: #f3f6f8; border-top:0.1rem solid #dddddd;
-    .con {padding:0;}
+    .con {padding:0 0.9rem 0 1.5rem; }
     .link_list_box {flex-basis:100%; padding:2rem 0;
       ul {flex-basis:100%;
         > li {flex-basis:calc(100%/4); margin-bottom:1.8rem;
@@ -40,10 +40,26 @@ export const FooterSection = {
       .corp_intro {margin-top:3rem;
         * {font-size:1.2rem; color:#ffffff;}
         .origin_office {flex-basis:68%;
+          * {margin-bottom:1.2rem;}
           p {font-weight:600;}
         }
         .corp_lab {flex-basis:32%;
+          * {margin-bottom:1.2rem;}
           p {font-weight:600;}
+        }
+      }
+      .symble_section {
+        div {margin-left:0.3rem;
+          img {max-width:5.1rem;}
+          &.global_sign {
+            img {max-width:9.5rem;}
+          }
+        }
+      }
+      .copyright {padding-bottom:2rem;
+        copyright {margin-right:10%; letter-spacing:-0.12rem;}
+        .w_logo_section {
+          img:first-child {margin-right:0.5rem;}
         }
       }
     }
