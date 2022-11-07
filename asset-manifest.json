@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dothome_clone/static/css/main.5b67e339.css",
-    "main.js": "/dothome_clone/static/js/main.f148225b.js",
+    "main.js": "/dothome_clone/static/js/main.6d3f2245.js",
     "static/js/787.01e36d10.chunk.js": "/dothome_clone/static/js/787.01e36d10.chunk.js",
     "static/media/main_slide_01.png": "/dothome_clone/static/media/main_slide_01.a78d24d1a5f451a918b6.png",
     "static/media/main_slide_03.png": "/dothome_clone/static/media/main_slide_03.9d7da7bbceb2634a2351.png",
@@ -9,13 +9,15 @@
     "static/media/main_slide_05.png": "/dothome_clone/static/media/main_slide_05.b960747149cb4fca13f9.png",
     "static/media/main_slide_04.png": "/dothome_clone/static/media/main_slide_04.ce5c3d0582457b7d0bb8.png",
     "static/media/find-service.png": "/dothome_clone/static/media/find-service.636cd69576e5e32340f0.png",
+    "static/media/kisa_logo.png": "/dothome_clone/static/media/kisa_logo.c1b80a01ba55f4d6fde1.png",
+    "static/media/f-award1.png": "/dothome_clone/static/media/f-award1.b20fff0f1aef953bd6f5.png",
     "index.html": "/dothome_clone/index.html",
     "main.5b67e339.css.map": "/dothome_clone/static/css/main.5b67e339.css.map",
-    "main.f148225b.js.map": "/dothome_clone/static/js/main.f148225b.js.map",
+    "main.6d3f2245.js.map": "/dothome_clone/static/js/main.6d3f2245.js.map",
     "787.01e36d10.chunk.js.map": "/dothome_clone/static/js/787.01e36d10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b67e339.css",
-    "static/js/main.f148225b.js"
+    "static/js/main.6d3f2245.js"
   ]
 }
