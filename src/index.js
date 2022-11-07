@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import "./resources/css/common.css";
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter>
-  {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+  // <HashRouter>
+  // <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename="/dothome_clone/">
+    {/* <React.StrictMode> */}
+    <App />
+    {/* </React.StrictMode> */}
   </HashRouter>
 );
 
