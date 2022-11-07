@@ -8,8 +8,8 @@ import { HashRouter, BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <HashRouter>
-  // <HashRouter basename={process.env.PUBLIC_URL}>
-  <HashRouter basename="/dothome_clone/">
+  <HashRouter basename={process.env.PUBLIC_URL}>
+    {/* <HashRouter basename="/dothome_clone/"> */}
     {/* <React.StrictMode> */}
     <App />
     {/* </React.StrictMode> */}
