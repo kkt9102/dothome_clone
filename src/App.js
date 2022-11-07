@@ -3,10 +3,12 @@ import Main from "./components/Main";
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Main/>}/>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

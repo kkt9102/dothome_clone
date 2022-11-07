@@ -7,13 +7,15 @@ import { HashRouter, BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <HashRouter>
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    >{/* // <HashRouter> */}
+    {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
     {/* <HashRouter basename="/dothome_clone/"> */}
     {/* <React.StrictMode> */}
     <App />
     {/* </React.StrictMode> */}
-  </HashRouter>
+    {/* </HashRouter> */}
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
