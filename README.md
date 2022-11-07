@@ -6,6 +6,11 @@
 # 개발
 
 - Origin : [닷홈 홈페이지 바로가기](https://www.dothome.co.kr/?gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP2eLkqwnQSTPU1JHI4NMgt9Z99EYJOsJ0fR92XMNyP3E-wZhhpD5rRoCs58QAvD_BwE)
-- Clone :
+- Clone : https://kkt9102.github.io/dothome_clone/
 
-- React
+# 개발환경
+|---|---|
+---
+|OS|Window|
+|Front|React|
+|IDE|Visual Code|
