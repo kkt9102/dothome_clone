@@ -37,6 +37,23 @@ export const HeaderSection = {
         &:not(:last-child)::after {content:""; position:absolute; width:0.1rem; height:1rem; top:25%; right:0; background:#999999;}
       }
     }
+    .mobile_menu {flex-basis:100%;
+      .mobile_btn {flex-basis:3rem; height:2rem;
+        div {position:absolute; width:100%; height:0.3rem; border-radius:0.3rem; background:#333333; transition: transform 0.2s;
+          :first-child {top:5%;}
+          :nth-child(2) {top:50%;}
+          :last-child {top:95%;}
+        }
+        &.active {
+          div {
+            :first-child {top:50%; transform:rotate(45deg);}
+            :nth-child(2) {display:none;}
+            :last-child {top:50%; transform:rotate(-225deg);}
+            }
+          }
+      }
+      ul {}
+    }
     // responsive
     @media screen and (max-width:1440px) {
       max-width: 100%; width: 100%; padding:0 10%;
@@ -45,6 +62,11 @@ export const HeaderSection = {
 
     @media screen and (max-width:1200px) {
       padding:0 2rem;
+    }
+
+    @media screen and (max-width:992px) {
+      nav {height:6.4rem;}
+      .left_menu,.right_menu {display:none;}
     }
   `
 }

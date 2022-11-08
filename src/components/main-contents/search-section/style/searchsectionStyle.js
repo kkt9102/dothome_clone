@@ -23,7 +23,7 @@ export const SearchSection = {
       p {flex-basis:55%; font-size:2.4rem; word-break:keep-all; text-align:center;}
     }
     // responsive
-    @media screen and (max-width:991px) {
+    @media screen and (max-width:992px) {
     flex-basis:100%;
     .input_box {margin-bottom:2rem;
       .input_box {margin-bottom:0;}

@@ -35,7 +35,7 @@ export const LoginSection = {
     }
     .customer_btn {flex-basis:100%; padding:1.45rem; background:#434c53; color:#ffffff; letter-spacing:0.1rem; cursor:pointer;}
   // responsive
-  @media screen and (max-width:991px) {
+  @media screen and (max-width:992px) {
     flex-basis:100%;
     form {
       .input_box {max-width:100%; flex-basis:60%;}

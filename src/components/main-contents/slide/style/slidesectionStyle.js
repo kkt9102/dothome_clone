@@ -74,7 +74,7 @@ export const SlideStlye = {
       
     }
 
-    @media screen and (max-width:991px) {
+    @media screen and (max-width:992px) {
       
     }
   `

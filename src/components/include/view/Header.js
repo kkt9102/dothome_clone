@@ -1,9 +1,17 @@
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import { HeaderSection } from "../style/headerStyle";
 
 import Logo from "../../../resources/img/logo.png";
 
 const Header = () => {
+
+  const [moMenu, setMoMenu] = useState(false);
+
+  const onToggleMobileMenu = () => {
+    setMoMenu(moMenu => !moMenu);
+  }
   return(
     <HeaderSection.HeaderFrame>
       <nav>
@@ -46,6 +54,19 @@ const Header = () => {
             <span>마이닷홈</span>
           </li>
         </ul>
+        <div className="mobile_menu flex flex_jc_sb flex_ai_c">
+          <div className="logo_sc">
+            <Link to="/">
+              <img src={Logo} alt="닷홈 메인으로 바로가기"/>
+            </Link>
+          </div>
+          <div className={`${moMenu === false ? "" : "active"} mobile_btn relative`} onClick={onToggleMobileMenu}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <ul className="absolute"></ul>
+        </div>
       </nav>
     </HeaderSection.HeaderFrame>
   )

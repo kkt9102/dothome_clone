@@ -24,7 +24,7 @@ export const CustomerSection = {
             
     }
 
-    @media screen and (max-width:991px) {
+    @media screen and (max-width:992px) {
             
     }
   `
