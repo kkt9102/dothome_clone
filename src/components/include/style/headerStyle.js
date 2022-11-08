@@ -37,6 +37,10 @@ export const HeaderSection = {
         &:not(:last-child)::after {content:""; position:absolute; width:0.1rem; height:1rem; top:25%; right:0; background:#999999;}
       }
     }
-
+    // responsive
+    @media screen and (max-width:1440px) {
+      max-width: 100%; width: 100%; padding:0 10%;
+      nav {width:100%;}
+    }
   `
 }

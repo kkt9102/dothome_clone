@@ -36,27 +36,11 @@ const MainSlide = () => {
     vertical:false,
     arrows:false,
     autoplay:false,
+    draggable:false,
     appendDots: dots => (
-      <div className="custom_dots"
-      style={{
-        position: "relative",
-        maxWidth: "120rem",
-        width: "120rem",
-        height: "6rem",
-        top: "-6.1rem",
-        margin: "0 auto",
-        background: "none",
-        // padding: "1rem"
-      }}
-    >
-      <ul 
-      style={{ 
-        display: "flex",
-        flexBasis: "120rem",
-        width: "120rem",
-        height: "inherit",
-      }}> {dots} </ul>
-    </div>
+      <div className="custom_dots">
+        <ul>{dots}</ul>
+      </div>
   ),
   customPaging: i => (
     <div

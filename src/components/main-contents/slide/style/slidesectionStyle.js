@@ -38,8 +38,8 @@ export const SlideStlye = {
     .item_5 {background-color:#d0e7cf !important; background:url("${Item5}") no-repeat center center;
       > div {max-width:117rem; margin:0 auto;}
     }
-    .slick-dots {
-      ul {box-shadow: 0rem 0rem 0.5rem #999999; border-top-left-radius:0.8rem; border-top-right-radius:0.8rem; overflow:hidden;
+    .slick-dots {position:relative; max-width:120rem; width:120rem; height:6rem; top:-6.1rem; margin:0 auto; background:none;
+      ul {display:flex; flex-basis:100%; width:100%; height:inherit; box-shadow: 0rem 0rem 0.5rem #999999; border-top-left-radius:0.8rem; border-top-right-radius:0.8rem; overflow:hidden;
         li {flex-basis:calc(100%/5) !important; height:inherit !important; margin:0 !important; background:#ffffff; 
           :first-child { border-top-left-radius:0.5rem;
             &.slick-active {background:#ffa200; border-color:#ffa200;}
@@ -57,6 +57,17 @@ export const SlideStlye = {
         }
       }
       ::after {content:""; position:absolute; top:calc(100% + 0.1rem); left:0; width:100%; height:0.5rem; background:#ffffff;}
+    }
+    // responsive
+    @media screen and (max-width:1440px) {
+      .items {
+        > div {padding:0 10%;
+          .tit {width:60%; word-break:keep-all;}
+        }
+      }
+      .slick-dots {width:100% !important;
+        ul {max-width:100% !important;}
+      }
     }
   `
 }

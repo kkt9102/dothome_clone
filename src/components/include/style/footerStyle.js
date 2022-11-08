@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterSection = {
   FooterFrame:styled.div`
     background: #f3f6f8; border-top:0.1rem solid #dddddd;
-    .con {padding:0 0.9rem 0 1.5rem; }
+    .con {padding:0 0.9rem 0 1.5rem;}
     .link_list_box {flex-basis:100%; padding:2rem 0;
       ul {flex-basis:100%;
         > li {flex-basis:calc(100%/4); margin-bottom:1.8rem;
@@ -63,6 +63,11 @@ export const FooterSection = {
           img:first-child {margin-right:0.5rem;}
         }
       }
+    }
+
+    // responsive
+    @media screen and (max-width:1440px) {
+      .con {padding:0 10%;}
     }
   `
 }
