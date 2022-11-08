@@ -46,7 +46,7 @@ export const SlideStlye = {
           }
           :last-child { border-top-right-radius:0.5rem;}
           :nth-child(2n + 2) {background:#dddddd;}
-          div { height:inherit !important;
+          div {display:flex; justify-content:center; align-items:center; flex-basis:100%; width:100%; height:inherit !important;
             .dots_txt {font-size:1.3rem;
             &.bold {margin-left:0.5rem; font-weight:600;}
             }
@@ -68,6 +68,14 @@ export const SlideStlye = {
       .slick-dots {width:100% !important;
         ul {max-width:100% !important;}
       }
+    }
+
+    @media screen and (max-width:1200px) {
+      
+    }
+
+    @media screen and (max-width:991px) {
+      
     }
   `
 }

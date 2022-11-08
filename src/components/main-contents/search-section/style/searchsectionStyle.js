@@ -22,5 +22,12 @@ export const SearchSection = {
     .link_box {flex-basis:17.4rem; background:#e1f5ff url("${effect_bg}"); cursor:pointer;
       p {flex-basis:55%; font-size:2.4rem; word-break:keep-all; text-align:center;}
     }
+    // responsive
+    @media screen and (max-width:991px) {
+    flex-basis:100%;
+    .input_box {margin-bottom:2rem;
+      .input_box {margin-bottom:0;}
+    }
+  }
   `
 }

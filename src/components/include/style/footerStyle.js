@@ -69,5 +69,9 @@ export const FooterSection = {
     @media screen and (max-width:1440px) {
       .con {padding:0 10%;}
     }
+
+    @media screen and (max-width:1200px) {
+      .con {padding:0 2rem;}
+    }
   `
 }

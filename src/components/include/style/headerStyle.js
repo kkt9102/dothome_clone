@@ -42,5 +42,9 @@ export const HeaderSection = {
       max-width: 100%; width: 100%; padding:0 10%;
       nav {width:100%;}
     }
+
+    @media screen and (max-width:1200px) {
+      padding:0 2rem;
+    }
   `
 }

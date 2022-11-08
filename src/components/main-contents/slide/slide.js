@@ -43,17 +43,7 @@ const MainSlide = () => {
       </div>
   ),
   customPaging: i => (
-    <div
-      style={{
-        display:"flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexBasis: "calc(120rem/5)",
-        width: "calc(120rem/5)",
-        height: "inherit !important",
-        color: "blue",
-      }}
-    >
+    <div>
       <span className="dots_txt">{contents[i].text}</span>
       <span className="dots_txt bold">{contents[i].bold}</span>
     </div>
